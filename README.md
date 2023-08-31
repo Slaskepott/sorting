@@ -1,5 +1,12 @@
 #            ***README***
 ## Litt om programmet
+Formålet med programmet er
+- Å demonstrere en datastruktur (teque), som er en en kø med tre innsettingsmetoder, push_front, push_back og push_middle
+- Implementasjon av to sorteringsalgoritmer, insertion sort og merge sort.
+- Visualisere og analysere tids- og kjøretidskompleksitet relativt til arrayets størrelse.
+
+Programmet er skrevet i java, og leverer output i .out-filformat. Dataene kan lagres som csv og bearbeides i andre verktøy, f.eks. Excel.
+
 Programmet kan kjøre i to moduser:
 - Modus 1 tar filer fra mappen input, og genererer sorterte .out-filer
 - Modus 2 sammenligner to sorteringsalgoritmer og genererer en relasjonell database som hvordan antall sammenligninger, bytter og tid vokser relativt til arrayets størrelse
