@@ -14,12 +14,12 @@ Programmet kan kjøre i to moduser:
 ## Bruksanvisning
 Programmet tar tre argumenter i CLI. Programmet gjør **ingen input-validering** og brukeren må derfor være nøye med å formatere input eksakt.
 
-ENTEN:
+**Sorterings-modus**:
 [0] Eksakt streng, enten "random" eller "nearly_sorted"
 [1] Eksakt streng, enten "10","100","1000","10000","100000" eller "1000000"
 [2] Eksakt streng, enten "insertion" eller "merge"
 
-ELLER:
+**Analyse-modus**:
 [0] Eksakt streng, "compare"
 [1] Eksakt streng, enten "random" eller "nearly_sorted"
 [2] Eksakt streng, enten "10","100","1000","10000","100000" eller "1000000"
